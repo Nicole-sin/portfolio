@@ -1,47 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
-  </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+      </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
-    <script defer src="app1.js"></script>
-    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.work0">
     <title>Nicole Sin Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
 </head>
 <body>
-  <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
-      <img class="image" src="images/nicole.jpeg" draggable="false" />
-      <img class="image" src="images/team.jpeg" draggable="false" />
-      <img class="image" src="images/wall.png" draggable="false" />
-      <img class="image" src="images/kid-trashbot.png" draggable="false" />
-      <img class="image" src="images/corn_tech.jpeg" draggable="false" />
-      <img class="image" src="images/OPF 2.jpg" draggable="false" />
-      <img class="image" src="images/trashbot-team 2.jpeg" draggable="false" />
-      <img class="image" src="images/backpacking.png" draggable="false" />
-      <img class="image" src="images/badminton.png" draggable="false" />
-  </div>
-  <div id="header">
-    <div class="container">
-        <nav>
-            <ul id="sidemenu">
-                <li><a href="index.html" class="active">Nicole</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="works.html">Work</a></li>
-                <li><a href="works.html">Resume</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <h1><span class="multiText"></span></h1> -->
+            </div>
+        </div>
     </div>
-  </div>
-  <div>
-    <a id="source-link" class="meta-link" href="https://camillemormal.com" target="_blank">
-      <span>Inspo</span>
-    </a>
-  </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Nicole, an undergraduate at Cornell University majoring in Computer Science and minoring in Statistics. I'm passionate about sustainability in tech using machine learning and computer vision to develop innovative solutions to address climate change, resource depletion, and soil depletion. <br><br>Ultimately, my goal is to contribute to a more resilient future, where technology is used in harmony with nature, rather than at its expense.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python , Java , R , Kotlin , HTML/CSS , JavaScript , SQL</li>
+                            <li><span>Development Tools</span><br>Machine Learning , Git/Github , Figma</li>
+                            <li><span>Frameworks</span><br>NodeJs , React.js , Pytorch , Flask , Bootstrap 5</li>
+                            <li><span>Libraries</span><br>Pandas , NumPy , Pytorch , Flask , Bootstrap 5 , SQLite , R: ggplot2, tidyr, janitor, tidyverse</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2023 - Current</span><br>Data Science Associate at OnePointFive</li>
+                            <li><span>June 2023 - August 2023</span><br>Summer research Intern at Cornell Tech</li>
+                            <li><span>Jan 2023 - May 2023</span><br>Team lead Web App Developer at Medgar Evers College</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>Computer Science at Cornell University<li>
+                            <li><span>2018-2022</span><br>Stuyvesant High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web App Development</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Machine Learning</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data <br>Analysis</h2>
+                    <p></p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Driver Drowsiness Dectector</h3>
+                        <p>Classifies if a driver is drowsy or awake based on real-time camera footage.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>BarrelBot</h3>
+                        <p>Trash Barrel Robot Study at Cornell Tech.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/gabe.png">
+                    <div class="layer">
+                        <h3>Gabe Goes Green</h3>
+                        <p>Big Red Hacks 2022 Hackathon. Aimed to educate children on carbon emissions and water pollution.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Parkingson's Disease Dectector</h3>
+                        <p>Predicts if a patient has Parkingson's Disease based on their health history and symptoms.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> nicolesin.nyc@gmail.com</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-linkedin"></i></a>Connect with me on LinkedIn!</p>
+                    </div>
+                    <a href="images/Nicole_Sin_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script 
+        src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+    </script>
+    <!-- <script>
+        var typingeffect = new Typed(".multiText",{
+            strings : ["Nicole Sin", "Software Engineer", "Data Analyst", "ML Enthusiast", "Always Curious"],
+            loop : true,
+            typeSpeed : 80,
+            backSpeed : 50,
+            backDelay : 1500
+        }
+        )
+    </script> -->
 </body>
-</html>
+</html> 
