@@ -155,7 +155,7 @@ nav ul li a.active {
 
 .about-pic {
   border-radius: 2rem;
-  width: 90%; 
+  width: 100%; 
   height: auto;
 }
 
@@ -185,8 +185,9 @@ nav ul li a.active {
 }
 
 .text-container {
-  width: 100%;
+  width: 90%;
   margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 #about h2 {
