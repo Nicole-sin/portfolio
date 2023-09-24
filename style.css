@@ -260,7 +260,7 @@ p {
   }
 
   .about-pic {
-    max-width: 800px;
+    max-width: 400px;
     width: 100%; 
     box-sizing: border-box; 
   }
@@ -277,6 +277,28 @@ p {
     box-sizing: border-box; 
     text-align: center; 
   }
+}
+
+@media (max-width: 600px) {
+  .about-details-container,
+  .details-container,
+  .about-containers {
+    display: none;
+  }
+  
+  .about-pic {
+    width: 80vw;
+    height: 80vh; 
+    object-fit: cover;
+  }
+
+  .section_pic-container, .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; 
+}
+
 }
 
 
@@ -423,6 +445,7 @@ p {
   padding: 40px;
   font-size: 13px;
   font-weight: 300;
+  color: #000000;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
 }
