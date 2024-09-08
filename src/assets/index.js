@@ -19,11 +19,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import resume from "./resume.svg";
 
-import google from "./company/google.png";
-import gt from "./company/gt.png";
-import honeywell from "./company/honeywell.png";
-import vantage from "./company/vantage.png";
-import amazon from "./company/amazon.png";
+import bofa from "./company/bofa.png";
+import cornelltech from "./company/cornelltech.png";
+import medgar from "./company/medgar.jpeg";
+import OPF from "./company/OPF.jpg";
+import resume_nicole from "./company/Nicole_Sin_Resume.pdf"
 
 export {
   resume,
@@ -43,10 +43,10 @@ export {
   reactjs,
   redux,
   tailwind,
-  amazon,
+  bofa,
   typescript,
-  google,
-  gt,
-  honeywell,
-  vantage,
+  cornelltech,
+  medgar,
+  OPF,
+  resume_nicole,
 };

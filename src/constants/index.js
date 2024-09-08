@@ -18,13 +18,13 @@ import {
   git,
   figma,
   docker,
-  google,
-  amazon,
-  honeywell,
-  gt,
   resume,
-  vantage,
   github,
+  cornelltech,
+  OPF,
+  medgar,
+  bofa,
+  resume_nicole,
 } from "../assets";
 
 export const navLinks = [
@@ -56,7 +56,7 @@ const services = [
   {
     title: "Resume",
     icon: resume,
-    link: "/Nicole_Sin_Resume.pdf",
+    link: resume_nicole,
   },
   {
     title: "Email",
@@ -121,7 +121,7 @@ const experiences = [
     title: "Software Engineering Intern",
     company_name: "Bank of America",
     location: "New York, NY",
-    icon: "/company_logos/bofa.png",
+    icon: bofa,
     iconBg: "#383E56",
     date: "June 2024 - August 2024",
     points: [
@@ -134,7 +134,7 @@ const experiences = [
     title: "Data Science Associate · Operations",
     company_name: "OnePointFive",
     location: "New York, NY",
-    icon: "/company_logos/OPF.jpg", // Update with the correct icon
+    icon: OPF,
     iconBg: "#E6DEDD",
     date: "June 2023 - September 2023",
     points: [
@@ -146,7 +146,7 @@ const experiences = [
     title: "Software Engineering Summer Intern",
     company_name: "Cornell Tech · FarLabs",
     location: "New York, NY",
-    icon: "/company_logos/cornelltech.png", // Update with the correct icon
+    icon: cornelltech,
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
@@ -158,7 +158,7 @@ const experiences = [
     title: "Software Engineering Intern",
     company_name: "Medgar Evers College · SEO Team",
     location: "Brooklyn, NY",
-    icon: "/company_logos/medgar.jpeg", // Update with the correct icon
+    icon: medgar,
     iconBg: "#E6DEDD",
     date: "January 2023 - May 2023",
     points: [
