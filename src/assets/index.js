@@ -24,6 +24,7 @@ import cornelltech from "./company/cornelltech.png";
 import medgar from "./company/medgar.jpeg";
 import OPF from "./company/OPF.jpg";
 import resume_nicole from "./company/Nicole_Sin_Resume.pdf"
+import cev from "./company/cev.jpeg";
 
 export {
   resume,
@@ -49,4 +50,5 @@ export {
   medgar,
   OPF,
   resume_nicole,
+  cev,
 };

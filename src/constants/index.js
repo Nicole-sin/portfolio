@@ -25,6 +25,7 @@ import {
   medgar,
   bofa,
   resume_nicole,
+  cev,
 } from "../assets";
 
 export const navLinks = [
@@ -128,6 +129,19 @@ const experiences = [
       "Developed and optimized endpoints using Flask to efficiently retrieve user credit card data and categorize purchases, improving response times by approximately 20% across all queries.",
       "Implemented indexed searches and refined query execution plans in Trino/Starburst, reducing data fetching time by ~15%. Leveraged Trino Python client to format SQL query results from Oracle Exadata into JSON.",
       "Received Honorable Mention in Innovation Challenge for integrating family banking accounts with Erica Chat Assistant."
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Cornell Electric Vehicles",
+    location: "New York, NY",
+    icon: cev,
+    iconBg: "#383E56",
+    date: "August 2023 - Present",
+    points: [
+      "Designed and built an API-layer to pull real-time car data from cloud storage to a localized display, visualizing data from 10+ car sensors.",
+      "Optimized A* and RRT* algorithms for efficient path planning in autonomous vehicle navigation, utilizing the CARLA simulator for testing. Helped transition software pipeline to ROS2 publish-subscribe architecture. ",
+      "<a href='https://www.cornellelectricvehicles.org/vehicles' target='_blank'>Learn more</a>",
     ],
   },
   {
