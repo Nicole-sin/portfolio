@@ -141,7 +141,7 @@ const experiences = [
     points: [
       "Designed and built an API-layer to pull real-time car data from cloud storage to a localized display, visualizing data from 10+ car sensors.",
       "Optimized A* and RRT* algorithms for efficient path planning in autonomous vehicle navigation, utilizing the CARLA simulator for testing. Helped transition software pipeline to ROS2 publish-subscribe architecture. ",
-      "<a href='https://www.cornellelectricvehicles.org/vehicles' target='_blank'>Learn more</a>",
+      <a href='https://www.cornellelectricvehicles.org/vehicles' target='_blank' rel="noopener noreferrer">Learn more</a>,
     ],
   },
   {
